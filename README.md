@@ -2,9 +2,9 @@
 
 Find email provider service based on the email address.
 
-[![Tests](https://github.com/fnando/email-provider-info/workflows/node-tests/badge.svg)](https://github.com/fnando/email-provider-info)
-[![NPM](https://img.shields.io/npm/v/email-provider-info.svg)](https://npmjs.org/package/email-provider-info)
-[![NPM](https://img.shields.io/npm/dt/email-provider-info.svg)](https://npmjs.org/package/email-provider-info)
+[![Tests](https://github.com/fnando/email-provider-info/workflows/js-tests/badge.svg)](https://github.com/fnando/email-provider-info)
+[![NPM](https://img.shields.io/npm/v/@fnando/email-provider-info.svg)](https://npmjs.org/package/@fnando/email-provider-info)
+[![NPM](https://img.shields.io/npm/dt/@fnando/email-provider-info.svg)](https://npmjs.org/package/@fnando/email-provider-info)
 
 ## Installation
 
