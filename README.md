@@ -33,6 +33,11 @@ if (url) {
 }
 ```
 
+The idea behind this package is enabling something like this, where users can go
+to their email service provider with just one click.
+
+![Example: Show button that goes straight to Gmail](https://raw.githubusercontent.com/fnando/email-provider-info/main/sample.png)
+
 ## Maintainer
 
 - [Nando Vieira](https://github.com/fnando)
