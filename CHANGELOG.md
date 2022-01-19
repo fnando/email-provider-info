@@ -11,7 +11,7 @@ Prefix your message with one of the following:
 - [Security] in case of vulnerabilities.
 -->
 
-## v0.0.2 - 2022-01-18
+## v0.0.3 - 2022-01-18
 
 - [Added] Microsoft Outlook detection.
 - [Added] Hey detection.
