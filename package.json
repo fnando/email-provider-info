@@ -1,6 +1,6 @@
 {
   "name": "@fnando/email-provider-info",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Find email provider service based on the email address.",
   "author": {
     "name": "Nando Vieira",
