@@ -100,4 +100,11 @@ describe("email-provider-info", () => {
     expect(provider.name).toEqual("Tutanota");
     expect(provider.url).toEqual("https://mail.tutanota.com/");
   });
+
+  test("returns info for gmx", () => {
+    const provider = getEmailProvider("john@gmx.com");
+
+    expect(provider.name).toEqual("GMX");
+    expect(provider.url).toEqual("https://navigator-bs.gmx.com/mail");
+  });
 });

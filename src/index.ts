@@ -223,6 +223,11 @@ export const providers: EmailProvider[] = [
       "keemail.me",
     ],
   },
+  {
+    name: "GMX",
+    url: "https://navigator-bs.gmx.com/mail",
+    hosts: ["gmx.com", "gmx.us"],
+  },
 ];
 
 export function getEmailProvider(email: string): EmailProvider {
