@@ -173,11 +173,6 @@ export const providers: EmailProvider[] = [
     hosts: ["mail.ru", "bk.ru", "inbox.ru", "list.ru"],
   },
   {
-    name: "Mail.ru",
-    url: "https://mail.ru/",
-    hosts: ["mail.ru", "bk.ru", "inbox.ru", "list.ru"],
-  },
-  {
     name: "AOL",
     url: "https://aol.com/",
     hosts: ["aol.com"],
