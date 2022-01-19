@@ -107,4 +107,18 @@ describe("email-provider-info", () => {
     expect(provider.name).toEqual("GMX");
     expect(provider.url).toEqual("https://navigator-bs.gmx.com/mail");
   });
+
+  test("returns info for uol", () => {
+    const provider = getEmailProvider("john@uol.com.br");
+
+    expect(provider.name).toEqual("UOL");
+    expect(provider.url).toEqual("https://email.uol.com.br/");
+  });
+
+  test("returns info for bol", () => {
+    const provider = getEmailProvider("john@bol.com.br");
+
+    expect(provider.name).toEqual("BOL");
+    expect(provider.url).toEqual("https://email.bol.uol.com.br/");
+  });
 });
