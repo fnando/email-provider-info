@@ -86,4 +86,11 @@ describe("email-provider-info", () => {
     expect(provider.name).toEqual("Hey");
     expect(provider.url).toEqual("https://app.hey.com/");
   });
+
+  test("returns info for yandex", () => {
+    const provider = getEmailProvider("john@yandex.com");
+
+    expect(provider.name).toEqual("Hey");
+    expect(provider.url).toEqual("https://app.hey.com/");
+  });
 });

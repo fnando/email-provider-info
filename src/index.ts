@@ -207,6 +207,11 @@ export const providers: EmailProvider[] = [
     url: "https://app.hey.com/",
     hosts: ["hey.com"],
   },
+  {
+    name: "Yandex",
+    url: "https://mail.yandex.com/",
+    hosts: ["yandex.com"],
+  },
 ];
 
 export function getEmailProvider(email: string): EmailProvider {
