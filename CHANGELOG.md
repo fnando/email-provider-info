@@ -14,6 +14,7 @@ Prefix your message with one of the following:
 ## Unreleased
 
 - [Added] Microsoft Outlook detection.
+- [Added] Hey detection.
 
 ## v0.0.1 - 2022-01-15
 

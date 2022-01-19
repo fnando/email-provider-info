@@ -202,6 +202,11 @@ export const providers: EmailProvider[] = [
     url: "https://outlook.live.com/mail/",
     hosts: ["outlook.com", "hotmail.com"],
   },
+  {
+    name: "Hey",
+    url: "https://app.hey.com/",
+    hosts: ["hey.com"],
+  },
 ];
 
 export function getEmailProvider(email: string): EmailProvider {

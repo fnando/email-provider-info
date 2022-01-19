@@ -79,4 +79,11 @@ describe("email-provider-info", () => {
     expect(provider.name).toEqual("Outlook");
     expect(provider.url).toEqual("https://outlook.live.com/mail/");
   });
+
+  test("returns info for hey", () => {
+    const provider = getEmailProvider("john@hey.com");
+
+    expect(provider.name).toEqual("Hey");
+    expect(provider.url).toEqual("https://app.hey.com/");
+  });
 });
