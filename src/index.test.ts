@@ -90,7 +90,14 @@ describe("email-provider-info", () => {
   test("returns info for yandex", () => {
     const provider = getEmailProvider("john@yandex.com");
 
-    expect(provider.name).toEqual("Hey");
-    expect(provider.url).toEqual("https://app.hey.com/");
+    expect(provider.name).toEqual("Yandex");
+    expect(provider.url).toEqual("https://mail.yandex.com/");
+  });
+
+  test("returns info for tutanota", () => {
+    const provider = getEmailProvider("john@tutanota.com");
+
+    expect(provider.name).toEqual("Tutanota");
+    expect(provider.url).toEqual("https://mail.tutanota.com/");
   });
 });

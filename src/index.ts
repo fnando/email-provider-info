@@ -212,6 +212,17 @@ export const providers: EmailProvider[] = [
     url: "https://mail.yandex.com/",
     hosts: ["yandex.com"],
   },
+  {
+    name: "Tutanota",
+    url: "https://mail.tutanota.com/",
+    hosts: [
+      "tutanota.com",
+      "tutanota.de",
+      "tutamail.com",
+      "tuta.io",
+      "keemail.me",
+    ],
+  },
 ];
 
 export function getEmailProvider(email: string): EmailProvider {

@@ -16,6 +16,7 @@ Prefix your message with one of the following:
 - [Added] Microsoft Outlook detection.
 - [Added] Hey detection.
 - [Added] Yandex detection.
+- [Added] Tutanota detection.
 
 ## v0.0.1 - 2022-01-15
 
