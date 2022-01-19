@@ -67,4 +67,16 @@ describe("email-provider-info", () => {
     expect(provider.name).toEqual("Zoho");
     expect(provider.url).toEqual("https://mail.zoho.com/");
   });
+
+  test("returns info for outlook", () => {
+    let provider = getEmailProvider("john@outlook.com");
+
+    expect(provider.name).toEqual("Outlook");
+    expect(provider.url).toEqual("https://outlook.live.com/mail/");
+
+    provider = getEmailProvider("john@hotmail.com");
+
+    expect(provider.name).toEqual("Outlook");
+    expect(provider.url).toEqual("https://outlook.live.com/mail/");
+  });
 });

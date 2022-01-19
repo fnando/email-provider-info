@@ -11,6 +11,10 @@ Prefix your message with one of the following:
 - [Security] in case of vulnerabilities.
 -->
 
+## Unreleased
+
+- [Added] Microsoft Outlook detection.
+
 ## v0.0.1 - 2022-01-15
 
 - Initial release.

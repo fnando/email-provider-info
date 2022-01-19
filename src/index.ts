@@ -197,6 +197,11 @@ export const providers: EmailProvider[] = [
     url: "https://email.uol.com.br/",
     hosts: ["uol.com.br"],
   },
+  {
+    name: "Outlook",
+    url: "https://outlook.live.com/mail/",
+    hosts: ["outlook.com", "hotmail.com"],
+  },
 ];
 
 export function getEmailProvider(email: string): EmailProvider {
