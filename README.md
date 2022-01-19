@@ -6,6 +6,24 @@ Find email provider service based on the email address.
 [![NPM](https://img.shields.io/npm/v/@fnando/email-provider-info.svg)](https://npmjs.org/package/@fnando/email-provider-info)
 [![NPM](https://img.shields.io/npm/dt/@fnando/email-provider-info.svg)](https://npmjs.org/package/@fnando/email-provider-info)
 
+Supported services:
+
+- AOL
+- Apple iCloud
+- BOL
+- Fastmail
+- Gmail
+- GMX
+- Hey
+- Mail.ru
+- Outlook
+- ProtonMail
+- Tutanota
+- UOL
+- Yahoo!
+- Yandex
+- Zoho
+
 ## Installation
 
 This package is available as a NPM package. To install it, use the following
