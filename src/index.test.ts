@@ -121,4 +121,11 @@ describe("email-provider-info", () => {
     expect(provider.name).toEqual("BOL");
     expect(provider.url).toEqual("https://email.bol.uol.com.br/");
   });
+
+  test("returns empty objet for unknown provider", () => {
+    const provider = getEmailProvider("john@unknown.com");
+
+    expect(provider.name).toEqual("");
+    expect(provider.url).toEqual("");
+  });
 });
