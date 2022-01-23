@@ -2,9 +2,13 @@
 
 Find email provider service based on the email address.
 
-[![Tests](https://github.com/fnando/email-provider-info/workflows/js-tests/badge.svg)](https://github.com/fnando/email-provider-info)
+[![JavaScript Tests](https://github.com/fnando/email-provider-info/workflows/js-tests/badge.svg)](https://github.com/fnando/email-provider-info)
+[![Ruby Tests](https://github.com/fnando/email-provider-info/workflows/ruby-tests/badge.svg)](https://github.com/fnando/email-provider-info)
 [![NPM](https://img.shields.io/npm/v/@fnando/email-provider-info.svg)](https://npmjs.org/package/@fnando/email-provider-info)
 [![NPM](https://img.shields.io/npm/dt/@fnando/email-provider-info.svg)](https://npmjs.org/package/@fnando/email-provider-info)
+[![Gem](https://img.shields.io/gem/v/email-provider-info.svg)](https://rubygems.org/gems/email-provider-info)
+[![Gem](https://img.shields.io/gem/dt/email-provider-info.svg)](https://rubygems.org/gems/email-provider-info)
+[![MIT License](https://img.shields.io/:License-MIT-blue.svg)](https://tldrlegal.com/license/mit-license)
 
 Supported services:
 
@@ -26,8 +30,10 @@ Supported services:
 
 ## Installation
 
-This package is available as a NPM package. To install it, use the following
-command:
+This package is available as a NPM and Rubygems package. To install it, use the
+following command:
+
+### JavaScript
 
 ```bash
 npm install @fnando/email-provider-info --save
@@ -39,7 +45,21 @@ If you're using Yarn (and you should):
 yarn add @fnando/email-provider-info
 ```
 
+### Ruby
+
+```bash
+gem install email_provider_info
+```
+
+Or add the following line to your project's Gemfile:
+
+```ruby
+gem "email-provider-info"
+```
+
 ## Usage
+
+### JavaScript
 
 ```js
 import { getEmailProvider } from "@fnando/email-provider-info";
@@ -50,6 +70,20 @@ if (url) {
   // Do something
 }
 ```
+
+### Ruby
+
+```ruby
+require "email_provider_info"
+
+provider = EmailProviderInfo.call("email@gmail.com")
+
+if provider
+  # Do something
+end
+```
+
+### Motivation
 
 The idea behind this package is enabling something like this, where users can go
 to their email service provider with just one click.

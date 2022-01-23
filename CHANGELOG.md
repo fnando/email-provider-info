@@ -11,7 +11,9 @@ Prefix your message with one of the following:
 - [Security] in case of vulnerabilities.
 -->
 
-## [npm] v0.0.3 - 2022-01-18
+## NPM
+
+### v0.0.3 - 2022-01-18
 
 - [Added] Microsoft Outlook detection.
 - [Added] Hey detection.
@@ -19,6 +21,12 @@ Prefix your message with one of the following:
 - [Added] Tutanota detection.
 - [Added] GMX detection.
 
-## [npm] v0.0.1 - 2022-01-15
+### v0.0.1 - 2022-01-15
+
+- Initial release.
+
+## Rubygems
+
+### v0.0.1 - 2022-01-23
 
 - Initial release.
