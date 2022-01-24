@@ -2,12 +2,18 @@
 
 Find email provider service based on the email address.
 
-[![JavaScript Tests](https://github.com/fnando/email-provider-info/workflows/js-tests/badge.svg)](https://github.com/fnando/email-provider-info)
+Ruby:
+
 [![Ruby Tests](https://github.com/fnando/email-provider-info/workflows/ruby-tests/badge.svg)](https://github.com/fnando/email-provider-info)
-[![NPM](https://img.shields.io/npm/v/@fnando/email-provider-info.svg)](https://npmjs.org/package/@fnando/email-provider-info)
-[![NPM](https://img.shields.io/npm/dt/@fnando/email-provider-info.svg)](https://npmjs.org/package/@fnando/email-provider-info)
 [![Gem](https://img.shields.io/gem/v/email-provider-info.svg)](https://rubygems.org/gems/email-provider-info)
 [![Gem](https://img.shields.io/gem/dt/email-provider-info.svg)](https://rubygems.org/gems/email-provider-info)
+[![MIT License](https://img.shields.io/:License-MIT-blue.svg)](https://tldrlegal.com/license/mit-license)
+
+JavaScript:
+
+[![JavaScript Tests](https://github.com/fnando/email-provider-info/workflows/js-tests/badge.svg)](https://github.com/fnando/email-provider-info)
+[![NPM](https://img.shields.io/npm/v/@fnando/email-provider-info.svg)](https://npmjs.org/package/@fnando/email-provider-info)
+[![NPM](https://img.shields.io/npm/dt/@fnando/email-provider-info.svg)](https://npmjs.org/package/@fnando/email-provider-info)
 [![MIT License](https://img.shields.io/:License-MIT-blue.svg)](https://tldrlegal.com/license/mit-license)
 
 Supported services:
