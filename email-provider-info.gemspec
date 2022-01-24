@@ -3,7 +3,7 @@
 require_relative "./lib/email_provider_info/version"
 
 Gem::Specification.new do |spec|
-  spec.name    = "email_provider_info"
+  spec.name    = "email-provider-info"
   spec.version = EmailProviderInfo::VERSION
   spec.authors = ["Nando Vieira"]
   spec.email   = ["me@fnando.com"]
