@@ -7,6 +7,7 @@ module.exports = {
   entry: {
     index: "./src/index.ts",
   },
+
   devtool: "source-map",
   output: {
     filename: "[name].js",
@@ -19,15 +20,10 @@ module.exports = {
         use: [{ loader: "babel-loader" }, { loader: "ts-loader" }],
         exclude: /node_modules/,
       },
-      {
-        test: /\.js$/,
-        use: [{ loader: "babel-loader" }],
-        exclude: /node_modules/,
-      },
     ],
   },
   resolve: {
     alias: { "~/": path.resolve(__dirname, "src/") },
-    extensions: [".tsx", ".ts", ".js"],
+    extensions: [".ts", ".json"],
   },
 };

@@ -6,7 +6,8 @@
     "sourceMap": true,
     "declaration": true,
     "resolveJsonModule": true,
-    "outDir": "dist",
+    "target": "es5",
+    "outDir": "./dist",
     "baseUrl": ".",
     "paths": {
       "~/*": ["src/*"]
