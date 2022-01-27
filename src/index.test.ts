@@ -122,7 +122,7 @@ describe("email-provider-info", () => {
     expect(provider.url).toEqual("https://email.bol.uol.com.br/");
   });
 
-  test("returns empty objet for unknown provider", () => {
+  test("returns empty object for unknown provider", () => {
     const provider = getEmailProvider("john@unknown.com");
 
     expect(provider.name).toEqual("");
