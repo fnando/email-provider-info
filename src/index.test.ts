@@ -1,5 +1,5 @@
 // eslint-disable-next-line @fnando/consistent-import/consistent-import
-import { getEmailProvider } from "~/index";
+import { getEmailProvider, providers } from "~/index";
 
 describe("email-provider-info", () => {
   test("returns info for gmail", () => {
@@ -127,5 +127,18 @@ describe("email-provider-info", () => {
 
     expect(provider.name).toEqual("");
     expect(provider.url).toEqual("");
+  });
+
+  test("extends provider list", () => {
+    const customProvider = {
+      name: "Custom",
+      hosts: ["example.com"],
+      url: "https://main.example.com",
+    };
+    providers.push(customProvider);
+    const provider = getEmailProvider("john@example.com");
+    providers.pop();
+
+    expect(provider).toEqual(customProvider);
   });
 });
