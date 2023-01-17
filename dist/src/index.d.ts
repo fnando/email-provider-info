@@ -1,4 +1,4 @@
-export declare type EmailProvider = {
+export type EmailProvider = {
     name: string;
     url: string;
     hosts: string[];

@@ -46,5 +46,5 @@
     "test": "jest --watch",
     "test:ci": "jest && yarn lint"
   },
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
