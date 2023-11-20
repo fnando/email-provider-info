@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "./lib/email_provider_info/version"
+require_relative "lib/email_provider_info/version"
 
 Gem::Specification.new do |spec|
   spec.name    = "email-provider-info"
@@ -37,6 +37,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "minitest"
   spec.add_development_dependency "minitest-utils"
+  spec.add_development_dependency "mocha"
   spec.add_development_dependency "pry-meta"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rubocop"

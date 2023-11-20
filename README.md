@@ -89,6 +89,22 @@ if provider
 end
 ```
 
+Additionally, you can use the
+[sniper link technique](https://growth.design/sniper-link) for some providers.
+All you need to do is using `search_url(sender: string)` instead; providers that
+don't have a search link, will default to usual inbox url.
+
+```ruby
+require "email_provider_info"
+
+provider = EmailProviderInfo.call("email@gmail.com")
+
+if provider
+  url = provider.search_url(sender: "sender@example.com")
+  # Do something
+end
+```
+
 ### Motivation
 
 The idea behind this package is enabling something like this, where users can go

@@ -3,7 +3,24 @@
 module EmailProviderInfo
   require "email_provider_info/version"
 
-  Value = Struct.new(:name, :url, :hosts)
+  class Value
+    attr_reader :email, :name, :url, :hosts
+
+    def initialize(name:, email:, url:, search:, hosts:)
+      @name = name
+      @email = email
+      @url = url
+      @search = search
+      @hosts = hosts
+    end
+
+    def search_url(sender: nil)
+      @search
+        .gsub("%{sender}", CGI.escapeURIComponent(sender.to_s))
+        .gsub("%{email}", CGI.escapeURIComponent(email.to_s))
+        .gsub("%{timestamp}", (Time.now.to_i - 3600).to_s)
+    end
+  end
 
   def self.providers
     @providers ||= JSON.parse(
@@ -17,6 +34,6 @@ module EmailProviderInfo
 
     info = providers.find {|provider| provider[:hosts].include?(host) }
 
-    Value.new(info[:name], info[:url], info[:hosts]) if info
+    Value.new(**info, email: email) if info
   end
 end
